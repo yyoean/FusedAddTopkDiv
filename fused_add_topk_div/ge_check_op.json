@@ -1,0 +1,37 @@
+{
+    "graph_id": 0,
+    "op": [
+        {
+            "error_type": "infer_shape_error",
+            "input0": {
+                "data_type": "DT_FLOAT",
+                "layout": "ND",
+                "shape": [
+                    16,
+                    256
+                ]
+            },
+            "input1": {
+                "data_type": "DT_FLOAT",
+                "layout": "ND",
+                "shape": [
+                    256
+                ]
+            },
+            "name": "FusedAddTopkDiv",
+            "output0": {
+                "data_type": "DT_FLOAT",
+                "layout": "ND",
+                "shape": []
+            },
+            "output1": {
+                "data_type": "DT_INT32",
+                "layout": "ND",
+                "shape": []
+            },
+            "reason": "InferShapeFailed!",
+            "type": "FusedAddTopkDiv"
+        }
+    ],
+    "session_id": 0
+}
